@@ -4,7 +4,7 @@
   "description": "basic template structure for websites",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "build": "nodemon index.js"
   },
   "keywords": [
     "basic",
