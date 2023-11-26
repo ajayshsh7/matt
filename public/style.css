@@ -1,18 +1,19 @@
 /* root styling and variables */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;600;800&family=Open+Sans:wght@400;500;600&family=Work+Sans:wght@200;300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 :root {
+    font-family: var(--ff-body);
     --clr-primary: hsl(0, 0%, 0%);
     --clr-accent: hsl(0,97.70114942528735%,34.11764705882353%);
     --clr-accent2: hsl(0, 0%, 85%);
     --clr-neutral: hsl(0, 0%, 11%);
 
-    --ff-primary: "font-family: 'Barlow', sans-serif;";
+    --ff-primary: 'Open Sans', sans-serif;
     --ff-heading: var(--ff-primary);
-    --ff-body: var(--ff-primary);
+    --ff-body: 'Barlow', sans-serif;
 
-    --fw-regular: 300;
-    --fw-semi-bold: 600;
-    --fw-bold: 800;
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
     --fw-light: 200;
 
     --fs-display: 3.563rem;
@@ -52,12 +53,15 @@ button a{
 h1 {
     font-size: var(--fs-display);
     font-family: var(--ff-heading);
+    font-weight: var(--fw-bold);
 }
 
 h2 {
     margin-top: 6rem;
     font-size: var(--fs-heading);
     color: var(--clr-accent2);
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-semi-bold);
 }
 
 p {
