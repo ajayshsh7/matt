@@ -1,7 +1,7 @@
 /* root styling and variables */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 :root {
-    font-family: var(--ff-body);
+    font-family: 'Barlow', sans-serif;
     --clr-primary: hsl(0, 0%, 0%);
     --clr-accent: hsl(0,97.70114942528735%,34.11764705882353%);
     --clr-accent2: hsl(0, 0%, 85%);
