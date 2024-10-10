@@ -438,19 +438,19 @@ a:active{
     background-size: cover;
 }
 .work-grid-2{
-    background-image: url('/images/work-image-2.png');
+    background-image: url('/images/YT-thumbnail2.png');
     background-position: center;
     background-size: cover;
 }
 .work-grid-3{
-    background-image: url('/images/work-image-3.jpg');
+    background-image: url('/images/YT-thumbnail3.jpg');
     background-size: cover;
     background-position: center;
 }
 .work-grid-4{
     background-position: center;
     background-size: cover;
-    background-image: url('/images/work-image-4.jpg');
+    background-image: url('/images/YT-thumbnail4.jpg');
 }
 
 @media (max-width:50em) {
